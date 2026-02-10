@@ -1,8 +1,0 @@
-#!/home/irvingwashington/code/MC-1D/envs/python-MC-1D/bin/python
-# -*- coding: utf-8 -*-
-import re
-import sys
-from endf_parserpy.cli.cmd import cli_interface
-if __name__ == '__main__':
-    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
-    sys.exit(cli_interface())

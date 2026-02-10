@@ -1,0 +1,2 @@
+[console_scripts]
+plasma-calculator = plasmapy.utils.calculator:main
